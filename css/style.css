@@ -1,0 +1,38 @@
+<body>
+  <nav>
+    <ul>
+      <li><a href="#intro">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section class="intro" id="intro">
+    <img src="profile.jpg" alt="Dilraj Singh Maan" class="hero-img" />
+    <h1>Welcome to Dilraj's Portfolio</h1>
+    <p>Software Developer and Designer</p>
+  </section>
+  <section class="project-gallery" id="projects">
+    <div class="project">
+      <h2>Project One</h2>
+      <p>Description of project one.</p>
+    </div>
+    <div class="project">
+      <h2>Project Two</h2>
+      <p>Description of project two.</p>
+    </div>
+  </section>
+  <section id="contact">
+    <form>
+      <input type="text" placeholder="Your Name" />
+      <input type="email" placeholder="Your Email" />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  <footer>
+    <ul>
+      <li><a href="#">LinkedIn</a></li>
+      <li><a href="#">GitHub</a></li>
+    </ul>
+  </footer>
+</body>
